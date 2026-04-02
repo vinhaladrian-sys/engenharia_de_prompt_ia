@@ -1,0 +1,61 @@
+#Prompt neutro / direto (kimi.com)
+
+def calcular_media(notas):
+    if not notas:
+        return 0
+    return sum(notas) / len(notas)
+
+
+def obter_situacao(media):
+    if media >= 7.0:
+        return "APROVADO"
+    elif media >= 5.0:
+        return "RECUPERACAO"
+    return "REPROVADO"
+
+
+def main():
+    notas = []
+    
+    while True:
+        try:
+            quantidade = int(input("Quantas notas? "))
+            if quantidade > 0:
+                break
+            print("Digite um numero positivo.")
+        except ValueError:
+            print("Digite um numero valido.")
+    
+    for i in range(quantidade):
+        while True:
+            try:
+                nota = float(input(f"Nota {i+1}: "))
+                if 0 <= nota <= 10:
+                    notas.append(nota)
+                    break
+                print("Nota deve estar entre 0 e 10.")
+            except ValueError:
+                print("Digite um numero valido.")
+    
+    media = calcular_media(notas)
+    print(f"Media: {media:.2f}")
+    print(f"Situaacao: {obter_situacao(media)}")
+
+
+#Prompt Persona (chat.maritaca.ia)
+
+n1, n2, n3 = map(float, input().split())
+print(f"{(n1+n2+n3)/3:.2f}")
+
+#Prompt Restrito (manus.im)
+
+nota1 = float(input())
+nota2 = float(input())
+nota3 = float(input())
+media = (nota1 + nota2 + nota3) / 3
+print(media)
+
+
+
+if __name__ == "__main__":
+    main()
