@@ -1,4 +1,5 @@
 Relatório de Projeto: Módulo 3 – Low-Code / No-Code / Vibecode
+
 🐱 Desafio Escolhido
 O desafio consistiu na criação do site para um restaurante temático com foco em gatos (Cat Café). O objetivo do espaço é permitir que os clientes desfrutem de comidas e bebidas personalizadas enquanto aproveitam a companhia de felinos, proporcionando uma experiência acolhedora, interativa e diferenciada.
 
