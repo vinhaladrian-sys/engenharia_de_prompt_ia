@@ -1,5 +1,3 @@
-Aqui está uma versão organizada e refinada do seu relatório em Markdown. Ajustei a estrutura para deixá-lo com um aspecto muito mais profissional, corrigindo pequenos deslizes gramaticais e destacando os pontos-chave para valorizar o trabalho do grupo na entrega da disciplina da UDF.
-
 Relatório de Projeto: Módulo 3 – Low-Code / No-Code / Vibecode
 🐱 Desafio Escolhido
 O desafio consistiu na criação do site para um restaurante temático com foco em gatos (Cat Café). O objetivo do espaço é permitir que os clientes desfrutem de comidas e bebidas personalizadas enquanto aproveitam a companhia de felinos, proporcionando uma experiência acolhedora, interativa e diferenciada.
